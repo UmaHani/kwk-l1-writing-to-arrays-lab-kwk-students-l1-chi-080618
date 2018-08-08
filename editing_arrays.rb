@@ -5,9 +5,12 @@ rainbow_colors = [
 ]
 
 def change_rainbow_colors
- puts rainbow_colors[0] = "red" 
-  puts rainbow_colors[1] = "light_red" 
-  puts rainbow_colors[2] = "Light_yellow"
+ rainbow_colors[0] = "red" 
+ puts rainbow_colors[0]
+ rainbow_colors[1] = "light_red"
+ puts rainbow_colors[1] 
+ rainbow_colors[2] = "Light_yellow"
+ puts rainbow_colors[2]
 end
 change_rainbow_colors
 
